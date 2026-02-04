@@ -11,8 +11,9 @@
 :root{
     --main: whitesmoke;
   /*  --main: #050f1e;*/
-    --light2: #738095;
+    --light3: #738095;
     --light: #4a5363;
+    --light2: #2f323b;
     --dark: #050e1c;
 }
 
@@ -249,9 +250,8 @@ header{
     font-family: Playfair;
     color: var(--light);
     /*transform: translateY(5%);*/
-    z-index: 900;
     line-height: .9;
-     
+    z-index: 900;
    /* animation: popup 1.2s ease-in-out;*/
 }
 
@@ -312,7 +312,7 @@ header{
     font-weight: 500;
    /* text-transform: uppercase;*/
     font-family: 'Playfair' serif;
-    z-index: 910;
+    z-index: 900;    
 }
 
 /*.top-text{
@@ -485,6 +485,7 @@ header{
     transform: translateX(-50%);
     font-family: Poppins;
     background: rgb(0,0,0,.3);
+    color: whitesmoke;
     border: 2px solid rgb(0,0,0,.6);
     border-radius: 999px;
     text-align: center;
@@ -707,7 +708,7 @@ footer p{
     }
     
     .about-img{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
 }
